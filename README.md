@@ -6,9 +6,7 @@ Execute commands with arguments
 
 Built-in commands: cd, echo, exit, env, pwd, export, unset.
 
-Input/output redirection (>, <, >>)
-
-herdoc (<<)
+Input/output redirection (>, <, >>, <<)
 
 Piping between commands (|)
 

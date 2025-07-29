@@ -4,13 +4,15 @@ A simple Unix shell implemented in C, mimicking basic shell behavior like bash. 
 Features
 Execute commands with arguments
 
-Built-in commands: cd, echo, exit, env
+Built-in commands: cd, echo, exit, env, pwd, export, unset.
 
 Input/output redirection (>, <, >>)
 
+herdoc (<<)
+
 Piping between commands (|)
 
-Signal handling (e.g., Ctrl+C interrupt)
+Signal handling (Ctrl+C, Ctrl+D, Ctrl+\)
 
 Requirements
 GCC or any C compiler
